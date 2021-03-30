@@ -171,32 +171,31 @@ do xterm -e python3 terminales.py -s $web -p $port -t $thread &
 done
 fi
 
-if [ $SA = 11 ]; then
+if [ $SA = 12 ]; then
 for i in {1..12}
 do xterm -e python3 terminales.py -s $web -p $port -t $thread &
 done
 fi
 
-if [ $SA = 11 ]; then
+if [ $SA = 13 ]; then
 for i in {1..13}
 do xterm -e python3 terminales.py -s $web -p $port -t $thread &
 done
 fi
 
-if [ $SA = 11 ]; then
+if [ $SA = 14 ]; then
 for i in {1..14}
 do xterm -e python3 terminales.py -s $web -p $port -t $thread &
 done
 fi
 
-if [ $SA = 11 ]; then
+if [ $SA = 15 ]; then
 for i in {1..15}
 do xterm -e python3 terminales.py -s $web -p $port -t $thread &
 done
 fi
 
 echo "$rojo HERRAMIENTA CERRADA "
-
 
 
 
