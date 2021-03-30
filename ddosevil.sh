@@ -96,10 +96,10 @@ echo -e "-$azulito (8) = Ocho terminales DdoS                                   
 echo -e "-$azulito (9) = Nueve terminales DdoS                                      -              "
 echo -e "-$azulito (10) = Diez terminales DdoS                                      -              "
 echo -e "-$azulito (11) = Once terminales DdoS                                      -              "
-echo -e "-$azulito (12) = Doce terminales DdoS  (TARDA MUCHO, NO RECOMENDABLE)      -              "
-echo -e "-$azulito (13) = Trece terminales DdoS  (TARDA MUCHO, NO RECOMENDABLE)     -              "
-echo -e "-$azulito (14) = Catorce terminales DdoS  (TARDA MUCHO, NO RECOMENDABLE)   -              "
-echo -e "-$azulito (15) = Quince terminales DdoS  (TARDA MUCHO, NO RECOMENDABLE)    -              "
+echo -e "-$azulito (12) = Doce terminales DdoS                                      -              "
+echo -e "-$azulito (13) = Trece terminales DdoS                                     -              "
+echo -e "-$azulito (14) = Catorce terminales DdoS                                   -              "
+echo -e "-$azulito (15) = Quince terminales DdoS                                    -              "
 echo "------------------------------------------------------------------------------                                 "
 echo -e "---------------------------"
 read -p " ESCRIBE LAS TERMINALES QUE QUIERAS DEL 1-15  = " SA
@@ -196,6 +196,5 @@ done
 fi
 
 echo "$rojo HERRAMIENTA CERRADA "
-
 
 
